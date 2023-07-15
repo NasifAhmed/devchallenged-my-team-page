@@ -180,6 +180,7 @@ main img {
 
     main img {
         width: 37vw;
+        min-width: 110px;
     }
 
     #image2,
@@ -192,3 +193,44 @@ main img {
         margin-top: 0;
     }
 }
+
+
+/* @media screen and (max-width: 490px) {
+    body {
+        padding: 0 6vw;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .team-description p {
+        max-width: 80vw;
+    }
+
+    header .team-description {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    main {
+        grid-template: auto auto auto auto/auto auto;
+        column-gap: 4vw;
+        row-gap: 8vh;
+    }
+
+    main img {
+        width: 37vw;
+    }
+
+    #image2,
+    #image4,
+    #image6 {
+        margin-top: 200px;
+    }
+
+    #image5 {
+        margin-top: 0;
+    }
+} */
